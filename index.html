@@ -17,21 +17,27 @@
 
     <!-- header design -->
     <header class="header">
-        <a href="#" class="logo">Top<span class="animate" style="--i:1;"></span></a>
+        <a href="#" class="logo">Navigate to the top<span class="animate" style="--i:1;"></span></a>
 
-        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+        <!-- Hamburger icon -->
+        <div class="menu-icon" id="menu-icon">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
+            <a href="#skills">Skills and Project</a>
             <a href="#contact">Contact</a>
 
             <span class="active-nav"></span>
             <span class="animate" style="--i:2;"></span>
         </nav>
     </header>
+    
 
     <!-- home section design -->
     <section class="home show-animate" id="home">
@@ -41,27 +47,23 @@
                 <h3>Front-End Developer</h3>
                 <span class="animate" style="--i:3;"></span>
             </div>
-            <p>I am a dedicated, self-assured, and eager learner who is constantly looking for opportunities to pick up
-                the new abilities.
-                I particularly want to put my knowledge and experience in Graphic Design, Web Development, and Android
-                Development to use.
-                To the best of my knowledge, avidly seeks to serve a professional organization with sincere devotion,
-                diligence, and commitment.
-                I have five years of experience managing a YouTube channel, therefore I also have knowledge with video
-                editing.
+            <p>I thrive in Node.js and Next.js development, crafting robust solutions and seamless user experiences with ease.
+                My expertise extends to API integration, where I excel in seamlessly connecting disparate systems for optimal functionality.
+                With a passion for innovation and a keen eye for detail, I bring a unique blend of Node.js, Next.js, and API integration skills to every project I undertake.
                 <span class="animate" style="--i:4;"></span>
             </p>
 
             <div class="btn-box">
-                <a href="#" class="btn">Hire Me</a>
-                <a href="#" class="btn">Let's Talk</a>
+                <a href="https://www.linkedin.com/in/akash-pathak-b9b4a8253" class="btn">Hire Me</a>
+                <a href="whatsapp://send?phone=+919811734423&text=Hi,%20my%20name%20is%20Akash%20Pathak" target="_blank"class="btn">Let's Talk</a>
                 <span class="animate" style="--i:5;"></span>
             </div>
+            
         </div>
 
         <div class="home-sci">
-            <a href="https://www.instagram.com/akash_04495/"><i class='bx bxl-instagram'></i></a>
-            <a href="https://twitter.com/AkashPa46439625"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/akash_04495"><i class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/AkashPa46439625?s=08"><i class='bx bxl-twitter'></i></a>
             <a href="https://in.linkedin.com/in/akash-pathak-b9b4a8253" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
             <span class="animate" style="--i:6;"></span>
         </div>
@@ -175,7 +177,7 @@
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i>2022 - 2023</div>
                             <h3>Web Developer - Siemens</h3>
-                            <p>I was working with the deployement of their
+                            <p>I was working with the deployment of their
                                 website wherein I looked for any bugs or security 
                                 issues if any.
                             </p>
@@ -184,7 +186,7 @@
 
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bxs-calendar'></i> 2022-2023</div>
+                            <div class="year"><i class='bx bxs-calendar'></i> 2018 - 2019</div>
                             <h3>Web Developer - Google Cloud Community</h3>
                             <p>
                             I was working on building a responsive website
@@ -256,7 +258,7 @@
                         </div>
 
                         <div class="progress">
-                            <h3>Deployement of the projects<span>100%</span></h3>
+                            <h3>Deployment of the projects<span>100%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
                     </div>
@@ -264,8 +266,62 @@
                     <span class="animate scroll" style="--i:6;"></span>
                 </div>
             </div>
+            <style>
+                /* Resetting margin and padding for all elements */
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+        
+                /* Ensuring projects are visible */
+                .skills-column {
+                    overflow: visible; /* Ensure projects are not hidden */
+                }
+        
+                /* Project styles */
+                .project {
+                    margin-bottom: 20px; /* Add spacing between projects */
+                    border: 1px solid #ccc; /* Add border for visibility */
+                    border-radius: 5px;
+                    padding: 10px;
+                }
+        
+                .project h3 {
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                }
+        
+                .project p {
+                    font-size: 16px;
+                    margin-bottom: 5px;
+                }
+            </style>
+            <div class="skills-column">
+            <h3 class="title">Projects<span class="animate scroll" style="--i:5;"></span></h3>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <!-- Projects content here -->
+                    <div class="project animate" style="font-size:10px;--i:6;">
+                        <h3>My Github to View all my Projects with Readme.md</h3>
+                        <p>Description: Web application.</p>
+                        <p>GitHub Profile: <a href="https://github.com/Zerothlaw0095">Akash Pathak</a></p>
+                        <p>Deployment of one of my project <a href="https://nikeparallax.netlify.app">Parallax Website and Locomotive Scroll</a></p>
+                    </div>
+                    <div class="project">
+                        <h3>My parallax JS website</h3>
+                        <p>Description: A simple parallax JS website with locomotive scroll.</p>
+                        <p>GitHub Repository: <a href="https://github.com/Zerothlaw0095/nikeparallax">https://github.com/Zerothlaw0095/nikeparallax</a></p>
+                        <p>Deployment: <a href="https://nikeparallax.netlify.app/">https://nikeparallax.netlify.app/</a></p>
+                    </div>
+                    
+                </div>
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
         </div>
+    
     </section>
+
+
 
     <!-- contact section design -->
     <section class="contact" id="contact">
@@ -309,19 +365,20 @@
 
                 <span class="animate scroll" style="--i:9;"></span>
             </div>
+            
         </form>
+        
     </section>
+    
 
     <!-- footer design -->
     <footer class="footer">
         <div class="footer-text">
-            <center>
-            <p>Copyright &copy; 2023 | Designed and
-                Maintenance by Akash Pathak | All
-                Rights Reserved</p>
-            </center>
+            
+            <p>Copyright &copy; 2024 | Designed and Maintenance by Akash Pathak | All Rights Reserved</p>
+            
 
-            <span class="animate scroll" style="--i:1;"></span>
+            
         </div>
 
         <div class="footer-iconTop">
@@ -330,6 +387,7 @@
             <span class="animate scroll" style="--i:3;"></span>
         </div>
     </footer>
+    
 
 
     <script src="script.js"></script>
