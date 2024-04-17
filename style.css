@@ -600,6 +600,7 @@ span {
     width: 100%;
 }
 
+/*contact*/
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
@@ -738,7 +739,6 @@ span {
 .footer-iconTop a:hover i {
     color: var(--main-color);
 }
-
 /* ANIMATION RELOAD AND SCROLL */
 .animate {
     position: absolute;
